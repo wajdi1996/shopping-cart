@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+        font-family: 'Playfair Display', serif;
+            
+}
+/*--------------------*/
+/*--------------------*/
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: 95px;
+    background: #fff;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    margin-right: 800px;
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: 20px;
+}
+
+/**/
+a{
+    text-decoration: none;
+    color: #555;
+
+}
+p{
+    color: #555;
+}
+/**/
+/*--------footer--------*/
+.footer{
+    background: #fff;
+    color: #555;
+    font-size: 14px;
+    padding: 60px 0 20px ;
+}
+.footer p{
+    color: #555;
+}
+.footer h3{
+    color: #000;
+    margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2 , .footer-col-3{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-1{
+    flex-basis: 30%;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+.footer-col-3{
+    flex-basis: 12%;
+    text-align: center;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/*************************/
+.cart-page{
+margin: 80px auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+th{
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background:#d29f26;
+    font-weight: normal;
+
+}
+td{
+    padding: 10px 5px;
+}
+td input{
+    width: 60px;
+    height: 30px;
+    padding: 5px;
+}
+td img{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+/*btn*/
+.btn{
+    display: inline-block;
+    background: #d29f26;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+   
+}
+.btn:hover{
+    background:#555;
+}
+/**/
+
+.modeNight{
+    background: #000;
+    color: white !important;
+}
+
+
+ul .far{
+    height:19px; 
+    width:47px;
+    cursor: pointer !important;
+}
+i.far{
+    cursor: pointer !important;
+}
+ul .fa-shopping-cart span{
+    color:red;
+    font-size: small;
+}
+ul .fas{
+    height:19px; 
+    width:47px;
+    cursor: pointer;
+}
